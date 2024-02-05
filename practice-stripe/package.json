@@ -1,0 +1,16 @@
+{
+  "name": "practice-stripe",
+  "version": "1.0.0",
+  "description": "js
+// can change this to module later if using import
+  "type": "js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
