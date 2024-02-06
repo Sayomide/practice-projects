@@ -1,8 +1,7 @@
 {
   "name": "practice-stripe",
   "version": "1.0.0",
-  "description": "js
-// can change this to module later if using import
+  "description": "js",
   "type": "js",
   "main": "index.js",
   "scripts": {

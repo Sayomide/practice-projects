@@ -33,7 +33,7 @@ app.listen(3000, () => console.log(`Listening on port ${3000}!`));
 
 const express = require('express');
 const app = express();
-const stripe = require('stripe')('sk_test_51OScz1FDiGCp6miEnWUQfp7d0Jmd5phX3s2aQqi3Q1Ufbf0PHRWY7CbGemcgn5FUMpgCEpmoRTmWiJv2FQMIQrnx00vEP6MgQW')
+const stripe = require('stripe')('')
 app.use(express.static('practice-stripe'));
 
 app.post('/create-checkout-session', async (req, res) => {
